@@ -1,1 +1,138 @@
+## Possible job titles
 
+- Security analyst or specialist
+- Cybersecurity analyst or specialist
+- Security operation centre (SOC) analyst
+- Information security analyst
+
+## Technical skills
+
+- Programming languages
+- Security information and event management (SIEM) tools
+- Intrusion detection systems (IDSs)
+- Threat landscape knowledge
+- Incident response
+
+## Personal info
+
+- **Personally identifiable information, known as PII**, is any information used to infer an individual's identity. PII includes someone's full name, date of birth, physical address, phone number, email address, internet protocol, or IP address and similar information.
+- **Sensitive personally identifiable information, known as SPII**, is a specific type of PII that falls under stricter handling guidelines and may include social security numbers, medical or financial information, and biometric data, such as facial recognition.
+
+## Feedback
+
+Good that videos can be fast-forwarded, and the transcript has highlights. Lets you drastically speed up learning.
+
+Definitely focused more on the industry than any actual learning. For example, individual's stories, what a security analyst does, skills needs, etc. However, it is a well-rounded introduction.
+
+Nice animations / graphics / video editing etc. All feels high quality.
+
+The 30-minute reading estimations are ridiculous, 5 minutes max.
+
+1.1 took perhaps an hour, would take twice as long with no background knowledge.
+
+## 3 malware examples
+
+- Brain virus: 1986, Alvi brothers, accidentally infected disks too.
+- Morris worm: Meant to install on all PCs to count, but accidentally reinstalled infinitely until ran out of memory. Led to creation of CERTs (Computer Emergency Response Teams).
+- LoveLetter (aka "I Love You"), already known. Sent to all email contacts & collected passwords. Example of social engineering.
+
+## Types of phishing
+
+- BEC (Business Email Compromise): Faking / hacking a colleague email.
+- Spear phishing: Targeting specific user(s).
+- Whaling: Executives only.
+- Vishing: Fake voice comms.
+- Smishing: Fake SMSs.
+
+## What to do during a breach?
+
+- Keep cool
+- Be the "pause" in a conversation
+- STOP the breach, then investigate it
+
+## 8 security domains (defined by CISSP)
+
+1. Security and risk management: Security goals and objectives, risks, compliance, etc.
+2. Asset security: Securing physical and digital assets.
+3. Security architecture & engineering: Optimise data security w/ tools, systems, processes.
+4. Comms & network security: Securing (and managing) physical networks & wireless comms.
+5. Identity & access mgmt: Validating identities, roles, etc.
+6. Security assessment & testing: Audits, testing, analysing data.
+7. Security operations: Investigations, preventative measures.
+8. Software development security: Coding securely!
+
+## Feedback
+
+Nice focus on examples now we're more "into the meat". Example is briefly described, then the relevant topic introduced. Nice!
+
+Quizzes during videos help stay engaged, and being able to click transcript to load that part is great.
+
+Different types of activity (reading, video, quiz, flashcards) keep it fresh.
+
+
+## Security framework core components
+
+1. Identify & document security goals
+2. Setting guidelines to achieve security goals
+3. Implementing strong security processes
+4. Monitoring & communicating results
+
+## CIA triad (foundational model)
+
+- Confidentiality (info is private)
+- Integrity (info is correct)
+- Availability (info is available)
+
+- Asset: Item perceived as having value to an organisation.
+- Value: Cost associated with the asset in question(?).
+
+## Cybersecurity Framework AKA NIST CSF
+
+- Voluntary framework with standards, guidelines, and best practices to manage cybersecurity risk.
+
+There is also the Risk Management Framework (NIST RMF), FERC-NERC, FedRAMP, CIS, GDPR, PCI DSS, HIPAA, ISO SOC, etc!
+
+## Ethical principles
+
+All 3 essentially boil down to "don't bypass controls just because you can". So no sharing info, no tipping off friends, etc.
+
+1. Confidentiality
+2. Privacy protections
+3. The law
+
+## Counterattacks
+
+- U.S. doesn't permit them, sees them as vigilantism.
+- International Court of Justice allows them (but of course most orgs v rarely do) if:
+  - The counterattack will only affect the party that attacked first.
+  - The counterattack is a direct communication asking the initial attacker to stop.
+  - The counterattack does not escalate the situation.
+  - The counterattack effects can be reversed.
+
+
+## SIEM tools
+
+SIEM tools = security information and event management tools. E.g.:
+
+- Splunk
+- Google's Chronicle
+- Presumably also things like Embrace etc (when using more inputs)
+
+## Playbooks
+
+2 common examples on forensic cases:
+
+1. **Chain of custody**: Similar to IRL police, documenting who/what/where/why evidence is collected, who is responsible, tracking it, etc.
+2. **Protecting and preserving evidence**: Need to know what is fragile / volatile. Something called the "order of volatility" exists, essentially just save the volatile stuff (e.g. RAM) first, whereas HDDs are stable.
+
+## Feedback
+
+The variety keeps it interesting, even when most of the information isn't new. For example, whilst I know the basics of Linux, having it explained in 1-2 sentences and applied specifically to something I'm interested in (cybersecurity, examining logs) makes it relevant.
+
+However, the portfolio activity was... weird. Sure, the information was helpful and up to date, but do I _need_ a professional statement? I guess it makes sense since this course is targeted to job-seekers, but having it self-graded makes it feel a bit pointless. Especially if I already have a job! It also doesn't consider different countries preferring different formats, and describes the very US-centric format.
+
+Again, timing is very inflated. 45 minutes for a 9 question multiple choice quiz?
+
+Course completed: https://coursera.org/share/debf249adf760a40865786d1eb571d02
+
+- Interestingly, it cites "14 hours approximately". More like ~4, but perhaps had tabs open for a long time.
