@@ -1,0 +1,222 @@
+## CISSP's 8 security domains
+
+1. Security goals and risk management:
+   - Defining security goals and objectives
+   - Risk mitigation
+   - Compliance
+   - Business continuity
+   - Legal regulations
+2. Asset security:
+   - Security digital & physical assets
+   - Storage, maintenance, retention, destruction of data
+   - Policies and procedures for the above
+3. Security architecture and engineering:
+   - Ensure effective tools / systems / processes are in place to protect assets & data
+   - Shared responsibility: All individuals in an org take active role in lowering risk and maintaining security
+4. Communication & network security:
+   - Managing & securing physical networks / wireless comms
+5. Identity & access management (IAM):
+   - Identification (verify who they are e.g. username)
+   - Authentication (verify their identity e.g. password / PIN)
+   - Authorization (verify access)
+   - Accountability (log actions)
+6. Security assessment & testing:
+   - Security control testing
+   - Collecting & analysing data
+   - Conducting security audits
+7. Security operations:
+   - Conducting investigations
+   - Preventative measures
+8. Software development security
+   - Secure coding practices
+
+## Risk
+
+Anything that can impact the confidentiality, integrity, or availability of an asset (a digital / physical item having value to org). Can be a thought of as the likelihood of a threat occurring.
+
+Vulnerability is a weakness that can be exploited by a threat.
+
+Levels of risk:
+
+- Low-risk asset: Would not harm org's rep / ops, or financial damage if leaked.
+- Medium-risk asset: May harm any of the above.
+- High-risk asset: Protected by regulations / laws, e.g. IP, PII, SPII.
+
+## Layers of web
+
+- Surface: Day to day stuff.
+- Deep: Unindexed, e.g. intranet / logged in data.
+- Dark: Tor
+
+## NIST Risk Management Framework's 7 steps for managing risk
+
+- Prepare: Monitoring for risks, identifying ways to reduce.
+- Categorise: Develop risk management processes and tasks.
+- Select: Choose, customise, capture, docs of protecting controls. E.g. a playbook.
+- Implement:
+- Assess: Determine if current controls are implemented correctly.
+- Authorise: Generating reports, developing plans, establishing milestones.
+- Monitor: Observing & maintaining controls.
+
+## OWASP
+
+OWASP is still updated! Long time no see: <https://owasp.org/www-project-top-ten/>
+
+## Feedback
+
+All the positive feedback is a little jarring after plain, logical language. It's quite "American". E.g. "You did a fantastic job adding new knowledge to your security analyst toolkit ... Keep up the great work!".
+
+
+
+## Security frameworks
+
+A starting point for building plans to help mitigate risks and threats to data and privacy.
+
+### NIS Cybersecurity Framework (CSF)
+
+Consists of standards, guidelines, and best practices to manage cybersecurity risk.
+
+Core functions:
+
+1. Identity: Monitor systems, identify potential issues.
+2. Protect: Mitigating cybersecurity threats w/ tools, policies, training, etc.
+3. Detect: Detect potential incidents, improve monitoring capabilities.
+4. Respond: Actually handle an incident! And implement improvements. Document what happened, prevent it happening again.
+5. Recover: Bring services / assets online again.
+
+### OWASP principles
+
+Some examples:
+
+- Minimise attack surface area: E.g. expose as little as possible.
+- Principle of least privilege: As little access as possible.
+- Defense in depth: Use multiple security controls, that use different approaches. E.g. 2FA & firewalls & permission settings.
+- Separation of duties: Nobody should have ALL perms.
+- Keep security simple
+- Fix security issues correctly
+- Establish secure defaults
+- Fail securely
+- Don't trust services
+- Avoid security by obscurity
+
+## Security controls
+
+Actions to reduce a specific risk.
+
+3 common types:
+
+- Encryption: Encoding into ciphertext.
+- Authentication: Logging in to access.
+- Authorization: Only letting some users access some assets.
+
+Additionally:
+
+- Physical controls, e.g. fences, guards, CCTV, access badges.
+- Technical controls, e.g. firewall, 2FA, antivirus
+- Administrative controls, e.g. authorization
+
+## Security audits
+
+### Internal
+
+Usually just internal security team (and compliance officer):
+
+- Establishing scope and goals
+- Conducting risk assessment
+- Conducting controls assessment
+- Assessing compliance
+- Communicating results
+
+## Feedback
+
+Having the same "host" throughout a course helps stay "centred", even when there are guest speakers.
+
+## Common types of logs
+
+- Firewall log: Attempted / established connections for incoming / outgoing requests
+- Network log: Log of all connections / devices entering & leaving
+- Server log: Actions by services etc
+
+## SIEM tools
+
+- Collect and analyse log data
+- Can also be used to create dashboards
+- Can also tracks metrics like response time, availability, etc
+
+## SIEM location
+
+- Self-hosted: Locally operated, duh. Good when need to own & control data
+- Cloud-hosted: Operated by the org, accessed over internet
+- Hybrid: Mixture of slf & cloud hosted.
+- Cloud-native: Operated by third party (e.g. Google)
+
+"Security orchestration, automation, and response" (SOAR) is the name for automatically responding to events.
+
+## SIEM examples
+
+### Splunk
+
+- I've used it!
+- Splunk Enterprise: Self hosted
+- Splunk Cloud: Cloud hosted
+
+#### Dashboards
+
+- Security posture: Displays notable security related events.
+- Executive summary: Overall health over time.
+- Incident review: Highlights higher risk items that need attention.
+- Risk analysis: Shows changes in risk related activity.
+
+### Google Chronicle
+
+- Cloud native
+
+#### Dashboards
+
+- Data ingestion & health: Shows data being ingested.
+- IOC matches: Shows top threats / risks / vulns.
+- Main: Shows overall sumary.
+- Rule detections: Show stats around incidents that are notable.
+
+## Suricata
+
+- Open source network analysis and threat detection software.
+  - <https://en.wikipedia.org/wiki/Suricata_(software)>
+  - <https://github.com/OISF/suricata>
+
+## Feedback
+
+Second module, still LOTS of focus on individual stories, how you "don't need x", whether that's maths, coding, etc.
+
+Presumably it's to keep those from a less typical background interested, although even I've noticed ~80% of the interviews are with women, as are all the course leaders! There is as much focus on diversity / individual's backgrounds as the actual technical content. Very odd.
+## Playbooks
+
+A manual that provides details about any operational action. Also clarify tools should be used. Updated often, a living document.
+
+Requires:
+
+- Urgency
+- Efficiency
+- Accuracy
+
+Some types:
+
+- Incident response
+- Security alerts
+- Team specific
+- Product specific
+
+## Phases of incident response playbook
+
+1. Preparation: Document procedures, identify who will action, educate users.
+2. Detection & analysis: Detect & define events using determined processes and technology.
+3. Containment: Prevent further damage and reduce immediate impact.
+4. Eradication & recovery: Removal of incident's artifacts, mitigating vulns, etc. Also restore to normal operations.
+5. Post-incident activity: Document actions, inform org leaders, apply lessons learned.
+6. Coordination: Reporting incidents & sharing info throughout the process.
+
+## Feedback
+
+Some speakers are _very_ slow! 1.5x is required sometimes.
+
+You absolutely could skim this by just doing the readings, and complete a course in an hour or two. My time is 70% waiting for videos, 20% reading, 10% tests / revising.
