@@ -1,5 +1,5 @@
 # cybersecurity-certificate-notes
-Misc notes from Google's Cybersecurity Professional Certificate  www.coursera.org/google-certificates/
+Misc notes from Google's Cybersecurity Professional 
 
 1 Foundations of Cybersecurity
 2 Play It Safe: Manage Security Risks
